@@ -6,7 +6,7 @@
   <img src="public/assets/images/register-ui.png" width="200" alt="System Architecture Diagram"/>
 </p>
 
-This is an university assignment-based project called UOS2024, where users can login or create the new account into the system. This basic example prototype can be used to initiate Authentication, Authorization, and Accounting (AAA) framework to our Apps.
+This is an university assignment-based project called **UOS2024**, where users can login or create the new account into the system. This basic example prototype can be used to initiate **Authentication, Authorization, and Accounting (AAA) framework** to our Apps.
 
 ## Security Features
 
@@ -58,7 +58,7 @@ git clone https://github.com/htutmyatoo/UOS2024.git
 
 - Replace `C:\xampp\php.ini` with `UOS2024\php.ini`
 
-## Running Tests
+## Testing
 
 - Use `CURL` or `Postman` to test captcha and honeypot
 
@@ -77,12 +77,22 @@ If MySQL shutdown automatically and cannot start properly in XAMPP,
 - replace them in `C:\xampp\mysql\data`
 - restart MySQL Module service.
 
-## Future Improvements
-Since I tried to implement [TypingDNA](https://www.typingdna.com/docs/tutorials.html?_gl=1*1n3sa9*_up*MQ..*_ga*ODIwMDEwMDg1LjE3NzQ0NjY3NjU.*_ga_ZG1G3V030B*czE3NzQ0NjY3NjUkbzEkZzAkdDE3NzQ0NjY3NjUkajYwJGwwJGgw) and use [GeeTest](https://docs.geetest.com/en) instead of Google reCAPTURE v3, I want to implement them if I have more time to read the documentation. Try [GeeTest v4 Demo](https://gt4.geetest.com/demov4/more-float-en.html). Beyond these typical 2FA, we can also add **Face Verification feature**.
+## Future Improvement
+Since I tried to implement [TypingDNA](https://www.typingdna.com/docs/tutorials.html?_gl=1*1n3sa9*_up*MQ..*_ga*ODIwMDEwMDg1LjE3NzQ0NjY3NjU.*_ga_ZG1G3V030B*czE3NzQ0NjY3NjUkbzEkZzAkdDE3NzQ0NjY3NjUkajYwJGwwJGgw) and use [GeeTest](https://docs.geetest.com/en) instead of Google reCAPTURE v3, I want to implement them if I have more time to read the documentations. Try [GeeTest v4 Demo](https://gt4.geetest.com/demov4/more-float-en.html). Beyond these typical 2FA, we can also add **Face Verification feature**.
 
 ## Reference
 
-[See List of Github Repos](https://github.com/stars/htutmyatoo/lists/web-based-login-and-registration)
+- [See List of Github Repos](https://github.com/stars/htutmyatoo/lists/web-based-login-and-registration)
+- Daemen, J., & Rijmen, V. (2002). The Design of Rijndael: AES - The Advanced Encryption Standard. Springer-Verlag Berlin Heidelberg.
+- Ferguson, N., Schneier, B., & Kohno, T. (2010). Cryptography Engineering: Design Principles and Practical Applications. John Wiley & Sons.
+- Dinh, N. T. and Hoang, V. T. (2023) “Recent advances of Captcha security analysis: a short literature review,” Procedia computer science, 218, pp. 2550–2562. doi: 10.1016/j.procs.2023.01.229.
+- Grigutytė, M. (2023) What is bcrypt and how does it work?, NordVPN. Available at: https://nordvpn.com/blog/what-is-bcrypt/ (Accessed: January 26, 2024).
+- Rapid7 (2023) What is a Honeypot? How It Improves Security, Rapid7. Available at: https://www.rapid7.com/fundamentals/honeypots/ (Accessed: January 27, 2024).
+- ReCAPTCHA (2023) reCAPTCHA. Available at: https://www.google.com/recaptcha/about/ (Accessed: January 25, 2024).
+- Robinson, K. (2020) Is email based 2FA a good idea?, Twilio. Available at: https://www.twilio.com/en-us/blog/email-2fa-tradeoffs (Accessed: January 26, 2024).
+- Stu the Security Squirrel (2023) AES-256 encryption guide for IT leaders, Kiteworks | Your Private Content Network. Kiteworks. Available at: https://www.kiteworks.com/secure-file-sharing/aes-256-encryption-guide-for-it-leaders/ (Accessed: January 26, 2024).
+- Taylor, C. (2023) Top five (5) risks from SMS-based multifactor authentication, CyberHoot. Available at: https://cyberhoot.com/blog/top-five-risks-from-sms-based-mfa/ (Accessed: January 26, 2024).
+- Twilio (2023) What is a Time-based One-time Password (TOTP)?, Twilio.com. Available at: https://www.twilio.com/docs/glossary/totp (Accessed: January 26, 2024).
 
 ## Support
 
