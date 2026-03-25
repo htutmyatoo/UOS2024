@@ -1,23 +1,50 @@
 
-# Web-based Secure Login and Registration System
+# UOS2024: Web-based Secure Login and Registration System
 
-This is a university assignment-based project called UOS2024.
+<p align="left">
+  <img src="public/assets/images/login-ui.png" width="390" alt="System Architecture Diagram"/>
+  <img src="public/assets/images/register-ui.png" width="200" alt="System Architecture Diagram"/>
+</p>
 
-- Install and run at `localhost:8080` using **Apache Server**
+This is an university assignment-based project called UOS2024, where users can login or create the new account into the system. This basic example prototype can be used to initiate Authentication, Authorization, and Accounting (AAA) framework to our Apps.
+
+## Security Features
+
+- Google reCAPTCHA and Honeypot
+- Text-based Password Strength Meter
+- Email Two-Factor Authentication
+- Support Authenticator Apps (e.g., Microsoft Authenticator)
+- Password Hashing and AES Data Encryption
+
+## Overview System Architecture
+
+<p align="left">
+  <img src="public/assets/images/Overview System Architecture.png" width="600" alt="System Architecture Diagram"/>
+</p>
+
+- Install and run on `localhost:8080` using **Apache Server**
 - Used **PHPMailer** Libary to send OTPs via Gmail
 - Used **Google Authenticator** Libary for TOTP authentication
+
+## Tech Stack
+
+**Client:** HTML, CSS, JavaScript
+
+**Server:** PHP, MySQL
 
 ## Installation
 
 #### Local Host Server Installation
 
-- Download [XAMPP](https://www.apachefriends.org/index.html)
+- Download and Install [XAMPP](https://www.apachefriends.org/index.html)
 
 #### Project Folder Configuration
 
-- Download and extract my project folder called `UOS2024`
-
-- Copy `uos2024` folder to `C:\xampp\htdocs`
+```bash
+# Clone this project or Download as ZIP file
+git clone https://github.com/htutmyatoo/UOS2024.git
+```
+- Move `uos2024` folder to `C:\xampp\htdocs`
 
 #### Apache Configuration
 
@@ -30,20 +57,6 @@ This is a university assignment-based project called UOS2024.
 #### PHP Configuration
 
 - Replace `C:\xampp\php.ini` with `UOS2024\php.ini`
-    
-## Tech Stack
-
-**Client:** HTML, CSS, JavaScript
-
-**Server:** PHP, MySQL
-
-## Security Features
-
-- Google reCAPTCHA and Honeypot
-- Text-based Password Strength Meter
-- Email Two-Factor Authentication
-- Support Authenticator Apps
-- Password Hashing and AES Data Encryption
 
 ## Running Tests
 
@@ -56,21 +69,25 @@ This is a university assignment-based project called UOS2024.
 If MySQL shutdown automatically and cannot start properly in XAMPP, 
 
 - Stop all module services from XAMPP control panel
-
 - go to `C:\xampp\mysql`
-
 - rename `C:\xampp\mysql\data` as `C:\xampp\mysql\data_old`.
-
 - copy `C:\xampp\mysql\backup` and rename it to `C:\xampp\mysql\data`
-
 - go to `C:\xampp\mysql\data_old`
-
 - copy `performance_schema` folder, `uos2024` folder, `aria_log.00000001`, `aria_log_control`, `ib_buffer_pool`, `ib_logfile0`, `ib_logfile1`, `ibdata1`, and `ibtmp1`.
-
 - replace them in `C:\xampp\mysql\data`
-
 - restart MySQL Module service.
 
-## Help
+## Future Improvements
+Since I tried to implement [TypingDNA](https://www.typingdna.com/docs/tutorials.html?_gl=1*1n3sa9*_up*MQ..*_ga*ODIwMDEwMDg1LjE3NzQ0NjY3NjU.*_ga_ZG1G3V030B*czE3NzQ0NjY3NjUkbzEkZzAkdDE3NzQ0NjY3NjUkajYwJGwwJGgw) and use [GeeTest](https://docs.geetest.com/en) instead of Google reCAPTURE v3, I want to implement them if I have more time to read the documentation. Try [GeeTest v4 Demo](https://gt4.geetest.com/demov4/more-float-en.html). Beyond these typical 2FA, we can also add **Face Verification feature**.
 
-If you have any technical error during running or testing, please reach out to us at kohtutoo19@gmail.com
+## Reference
+
+[See List of Github Repos](https://github.com/stars/htutmyatoo/lists/web-based-login-and-registration)
+
+## Support
+
+If you have any technical error during running or testing, please reach out by at **[sending Email](mailto:htutmyatoo.dev@gmail.com)**.
+
+<p align="left"><a href="https://ko-fi.com/J3J21UINNT" target="_blank">
+  <img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_dark.png?_gl=1*mz6i7q*_gcl_au*MTE3MDY3MDM4NC4xNzcxNDUyMzcx*_ga*MTY2NTkxNjMxNy4xNzcxNDUyMzcy*_ga_M13FZ7VQ2C*czE3NzI0NTgwOTQkbzEyJGcxJHQxNzcyNDU4NDc4JGo1MSRsMCRoMA.." width = 200 alt="Ko-fi.com"/>
+</a></p>
