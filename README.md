@@ -44,19 +44,19 @@ This is an university assignment-based project called **UOS2024**, where users c
 # Clone this project or Download as ZIP file
 git clone https://github.com/htutmyatoo/UOS2024.git
 ```
-- Move `uos2024` folder to `C:\xampp\htdocs`
+- Save it in `C:\xampp\htdocs`
 
 #### Apache Configuration
 
-- Replace `C:\xampp\apache\conf\httpd.config` with `UOS2024\httpd.config`
+- Replace `C:\xampp\apache\conf\httpd.config` with `UOS2024\conf\httpd.config`
 
 #### SQL Server Configuration
 
-- Replace `C:\xampp\mysql\data` with `UOS2024\data` to create database and table.
+- Replace `C:\xampp\mysql\data` with `UOS2024\conf\data` to create database and table.
 
 #### PHP Configuration
 
-- Replace `C:\xampp\php.ini` with `UOS2024\php.ini`
+- Replace `C:\xampp\php.ini` with `UOS2024\conf\php.ini`
 
 ## Testing
 
@@ -73,7 +73,7 @@ If MySQL shutdown automatically and cannot start properly in XAMPP,
 - rename `C:\xampp\mysql\data` as `C:\xampp\mysql\data_old`.
 - copy `C:\xampp\mysql\backup` and rename it to `C:\xampp\mysql\data`
 - go to `C:\xampp\mysql\data_old`
-- copy `performance_schema` folder, `uos2024` folder, `aria_log.00000001`, `aria_log_control`, `ib_buffer_pool`, `ib_logfile0`, `ib_logfile1`, `ibdata1`, and `ibtmp1`.
+- copy `performance_schema` folder, `uos2024` folder, `aria_log.00000001`, `aria_log_control`, `ib_buffer_pool`, `ib_logfile0`, `ib_logfile1`, `ibdata1`, and `ibtmp1` from this repo.
 - replace them in `C:\xampp\mysql\data`
 - restart MySQL Module service.
 
@@ -96,7 +96,7 @@ Since I tried to implement [TypingDNA](https://www.typingdna.com/docs/tutorials.
 
 ## Support
 
-If you have any technical error during running or testing, please reach out by at **[sending Email](mailto:htutmyatoo.dev@gmail.com)**.
+If you have any technical error during running or testing, please reach out by **[sending Email](mailto:htutmyatoo.dev@gmail.com)**.
 
 <p align="left"><a href="https://ko-fi.com/J3J21UINNT" target="_blank">
   <img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_dark.png?_gl=1*mz6i7q*_gcl_au*MTE3MDY3MDM4NC4xNzcxNDUyMzcx*_ga*MTY2NTkxNjMxNy4xNzcxNDUyMzcy*_ga_M13FZ7VQ2C*czE3NzI0NTgwOTQkbzEyJGcxJHQxNzcyNDU4NDc4JGo1MSRsMCRoMA.." width = 200 alt="Ko-fi.com"/>
