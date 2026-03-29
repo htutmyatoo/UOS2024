@@ -1,0 +1,214 @@
+2024-01-27 18:02:06 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 20652
+2024-01-27 18:02:06 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-27 18:02:06 0 [Note] InnoDB: Uses event mutexes
+2024-01-27 18:02:06 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-27 18:02:06 0 [Note] InnoDB: Number of pools: 1
+2024-01-27 18:02:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-27 18:02:06 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-27 18:02:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-27 18:02:06 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-27 18:02:06 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-27 18:02:06 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-27 18:02:06 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-27 18:02:06 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-27 18:02:06 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-27 18:02:06 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-27 18:02:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-27 18:02:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-27 18:02:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-27 18:02:06 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-27 18:02:06 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-27 18:02:06 0 [Note] InnoDB: Waiting for purge to start
+2024-01-27 18:02:07 0 [Note] InnoDB: 10.4.32 started; log sequence number 533926; transaction id 838
+2024-01-27 18:02:07 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-27 18:02:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-27 18:02:07 0 [Note] InnoDB: Buffer pool(s) load completed at 240127 18:02:07
+2024-01-27 18:02:07 0 [Note] Server socket created on IP: '::'.
+2024-01-27 19:25:55 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 7656
+2024-01-27 19:25:55 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-27 19:25:55 0 [Note] InnoDB: Uses event mutexes
+2024-01-27 19:25:55 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-27 19:25:55 0 [Note] InnoDB: Number of pools: 1
+2024-01-27 19:25:55 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-27 19:25:55 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-27 19:25:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-27 19:25:55 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=543114
+2024-01-27 19:25:55 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-27 19:25:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-27 19:25:55 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-27 19:25:55 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-27 19:25:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-27 19:25:55 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-27 19:25:55 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-27 19:25:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-27 19:25:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-27 19:25:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-27 19:25:55 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-27 19:25:55 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-27 19:25:55 0 [Note] InnoDB: Waiting for purge to start
+2024-01-27 19:25:55 0 [Note] InnoDB: 10.4.32 started; log sequence number 543123; transaction id 894
+2024-01-27 19:25:55 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-27 19:25:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-27 19:25:55 0 [Note] InnoDB: Buffer pool(s) load completed at 240127 19:25:55
+2024-01-27 19:25:55 0 [Note] Server socket created on IP: '::'.
+2024-01-28  2:54:29 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3464
+2024-01-28  2:54:29 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-28  2:54:29 0 [Note] InnoDB: Uses event mutexes
+2024-01-28  2:54:29 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-28  2:54:29 0 [Note] InnoDB: Number of pools: 1
+2024-01-28  2:54:29 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-28  2:54:29 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-28  2:54:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-28  2:54:29 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=543132
+2024-01-28  2:54:30 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-28  2:54:30 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28  2:54:30 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-28  2:54:30 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-28  2:54:30 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28  2:54:30 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-28  2:54:30 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-28  2:54:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-28  2:54:30 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-28  2:54:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-28  2:54:30 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-28  2:54:30 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-28  2:54:30 0 [Note] InnoDB: Waiting for purge to start
+2024-01-28  2:54:30 0 [Note] InnoDB: 10.4.32 started; log sequence number 543141; transaction id 894
+2024-01-28  2:54:30 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-28  2:54:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-28  2:54:30 0 [Note] InnoDB: Buffer pool(s) load completed at 240128  2:54:30
+2024-01-28  2:54:30 0 [Note] Server socket created on IP: '::'.
+2024-01-28 11:47:04 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 10264
+2024-01-28 11:47:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-28 11:47:04 0 [Note] InnoDB: Uses event mutexes
+2024-01-28 11:47:04 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-28 11:47:04 0 [Note] InnoDB: Number of pools: 1
+2024-01-28 11:47:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-28 11:47:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-28 11:47:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-28 11:47:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=550779
+2024-01-28 11:47:04 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-28 11:47:04 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28 11:47:04 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-28 11:47:04 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-28 11:47:04 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28 11:47:04 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-28 11:47:04 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-28 11:47:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-28 11:47:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-28 11:47:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-28 11:47:04 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-28 11:47:04 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-28 11:47:04 0 [Note] InnoDB: Waiting for purge to start
+2024-01-28 11:47:04 0 [Note] InnoDB: 10.4.32 started; log sequence number 550788; transaction id 944
+2024-01-28 11:47:04 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-28 11:47:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-28 11:47:04 0 [Note] InnoDB: Buffer pool(s) load completed at 240128 11:47:04
+2024-01-28 11:47:04 0 [Note] Server socket created on IP: '::'.
+2024-01-28 15:20:02 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 20280
+2024-01-28 15:20:02 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-28 15:20:02 0 [Note] InnoDB: Uses event mutexes
+2024-01-28 15:20:02 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-28 15:20:02 0 [Note] InnoDB: Number of pools: 1
+2024-01-28 15:20:02 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-28 15:20:02 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-28 15:20:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-28 15:20:02 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=551401
+2024-01-28 15:20:02 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-28 15:20:02 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28 15:20:02 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-28 15:20:02 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-28 15:20:02 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28 15:20:02 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-28 15:20:02 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-28 15:20:02 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-28 15:20:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-28 15:20:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-28 15:20:02 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-28 15:20:02 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-28 15:20:02 0 [Note] InnoDB: Waiting for purge to start
+2024-01-28 15:20:02 0 [Note] InnoDB: 10.4.32 started; log sequence number 551410; transaction id 970
+2024-01-28 15:20:02 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-28 15:20:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-28 15:20:02 0 [Note] Server socket created on IP: '::'.
+2024-01-28 21:57:55 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 14120
+2024-01-28 21:57:55 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-28 21:57:55 0 [Note] InnoDB: Uses event mutexes
+2024-01-28 21:57:55 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-28 21:57:55 0 [Note] InnoDB: Number of pools: 1
+2024-01-28 21:57:55 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-28 21:57:55 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-28 21:57:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-28 21:57:55 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=557770
+2024-01-28 21:57:55 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-28 21:57:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28 21:57:55 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-28 21:57:55 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-28 21:57:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-28 21:57:55 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-28 21:57:55 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-28 21:57:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-28 21:57:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-28 21:57:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-28 21:57:55 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-28 21:57:55 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-28 21:57:55 0 [Note] InnoDB: Waiting for purge to start
+2024-01-28 21:57:56 0 [Note] InnoDB: 10.4.32 started; log sequence number 557779; transaction id 1022
+2024-01-28 21:57:56 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-28 21:57:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-28 21:57:56 0 [Note] InnoDB: Buffer pool(s) load completed at 240128 21:57:56
+2024-01-28 21:57:56 0 [Note] Server socket created on IP: '::'.
+2024-01-29  6:31:54 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 15780
+2024-01-29  6:31:54 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-29  6:31:54 0 [Note] InnoDB: Uses event mutexes
+2024-01-29  6:31:54 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-29  6:31:54 0 [Note] InnoDB: Number of pools: 1
+2024-01-29  6:31:54 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-29  6:31:54 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-29  6:31:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-29  6:31:54 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=559343
+2024-01-29  6:31:55 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-29  6:31:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-29  6:31:55 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-29  6:31:55 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-29  6:31:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-29  6:31:55 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-29  6:31:55 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-29  6:31:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-29  6:31:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-29  6:31:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-29  6:31:55 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-29  6:31:55 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-29  6:31:55 0 [Note] InnoDB: Waiting for purge to start
+2024-01-29  6:31:55 0 [Note] InnoDB: 10.4.32 started; log sequence number 559352; transaction id 1052
+2024-01-29  6:31:55 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-29  6:31:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-29  6:31:55 0 [Note] InnoDB: Buffer pool(s) load completed at 240129  6:31:55
+2024-01-29  6:31:55 0 [Note] Server socket created on IP: '::'.
+2024-01-29 20:50:48 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 6180
+2024-01-29 20:50:48 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-29 20:50:48 0 [Note] InnoDB: Uses event mutexes
+2024-01-29 20:50:48 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-01-29 20:50:48 0 [Note] InnoDB: Number of pools: 1
+2024-01-29 20:50:48 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-01-29 20:50:48 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-01-29 20:50:48 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-29 20:50:48 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=576041
+2024-01-29 20:50:48 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2024-01-29 20:50:48 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-29 20:50:48 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\uos2024\password_reset.ibd' OS error: 71
+2024-01-29 20:50:48 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-01-29 20:50:48 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-01-29 20:50:48 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``uos2024`.`password_reset``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-01-29 20:50:48 0 [Warning] InnoDB: Ignoring tablespace for `uos2024`.`password_reset` because it could not be opened.
+2024-01-29 20:50:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-01-29 20:50:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-01-29 20:50:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-01-29 20:50:48 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-01-29 20:50:48 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-01-29 20:50:48 0 [Note] InnoDB: Waiting for purge to start
+2024-01-29 20:50:48 0 [Note] InnoDB: 10.4.32 started; log sequence number 576050; transaction id 1134
+2024-01-29 20:50:48 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-01-29 20:50:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-01-29 20:50:48 0 [Note] InnoDB: Buffer pool(s) load completed at 240129 20:50:48
+2024-01-29 20:50:48 0 [Note] Server socket created on IP: '::'.
