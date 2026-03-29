@@ -96,7 +96,7 @@ Since I tried to implement [TypingDNA](https://www.typingdna.com/docs/tutorials.
 
 ## Support
 
-If you have any technical error during running or testing, please reach out by **[sending Email](mailto:htutmyatoo.dev@gmail.com)**.
+If you have any technical error during running or testing, please reach out via **[Matrix](https://matrix.to/#/@htutmyatoo:matrix.org)**.
 
 <p align="left"><a href="https://ko-fi.com/J3J21UINNT" target="_blank">
   <img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_dark.png?_gl=1*mz6i7q*_gcl_au*MTE3MDY3MDM4NC4xNzcxNDUyMzcx*_ga*MTY2NTkxNjMxNy4xNzcxNDUyMzcy*_ga_M13FZ7VQ2C*czE3NzI0NTgwOTQkbzEyJGcxJHQxNzcyNDU4NDc4JGo1MSRsMCRoMA.." width = 200 alt="Ko-fi.com"/>
